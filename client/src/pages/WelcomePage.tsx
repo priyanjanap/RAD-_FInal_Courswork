@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import libraryImg from "../assets/library.jpg";
+import libraryImg from "../assets/images.jpeg"
 
 const WelcomePage: React.FC = () => {
   const navigate = useNavigate();
