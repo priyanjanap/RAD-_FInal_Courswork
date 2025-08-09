@@ -1,4 +1,4 @@
-import apiClient from "./apiClient";
+import apiClient from "./axios";
 import type { Lending } from "../types/Lending";
 
 export interface LendBookPayload {

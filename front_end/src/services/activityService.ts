@@ -1,4 +1,4 @@
-import apiClient from "./apiClient";
+import apiClient from "./axios";
 
 export interface Activity {
   type: "LEND" | "RETURN" | "READER" | "BOOK";
@@ -6,7 +6,6 @@ export interface Activity {
   timestamp: string; 
 }
 
-// Fetch recent activity (top 10)
 export const getRecentActivity = async (): Promise<Activity[]> => {
   const { data } = await apiClient.get<Activity[]>("/activity");
   return data;

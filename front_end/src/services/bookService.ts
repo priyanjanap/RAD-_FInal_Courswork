@@ -1,4 +1,4 @@
-import { apiClient } from "./apiClient";
+import { apiClient } from "./axios";
 import type { Book, BookFormData } from "../types/Book";
 
 // Fetch all books (backend returns category populated)

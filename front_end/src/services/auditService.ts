@@ -1,4 +1,4 @@
-import { apiClient } from "./apiClient";
+import { apiClient } from "./axios";
 import type { AuditLog } from "../types/AuditLog";
 
 // Fetch all audit logs

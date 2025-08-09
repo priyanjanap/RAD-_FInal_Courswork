@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {AuthContext} from "./AuthContext.ts";
-import {apiClient, setHeader} from "../services/apiClient.ts";
+import {apiClient, setHeader} from "../services/axios.ts";
 import router from "../router.tsx";
 
 

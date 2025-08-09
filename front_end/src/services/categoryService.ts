@@ -1,4 +1,4 @@
-import { apiClient } from "./apiClient";
+import { apiClient } from "./axios";
 import type { Category, CategoryFormData } from "../types/Category";
 
 export const getCategories = async (): Promise<Category[]> => {

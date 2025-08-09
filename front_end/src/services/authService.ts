@@ -1,5 +1,5 @@
 import type { User } from "../types/User.ts";
-import { apiClient } from "./apiClient";
+import { apiClient } from "./axios.ts";
 
 export interface SignupResponse{
     name : string

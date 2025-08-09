@@ -1,5 +1,5 @@
 import type { Reader, ReaderFormData } from "../types/Reader";
-import { apiClient } from "./apiClient";
+import { apiClient } from "./axios";
 
 
 // Fetch all readers
