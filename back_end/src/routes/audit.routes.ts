@@ -1,4 +1,3 @@
-// routes/audit.routes.ts
 import { Router } from "express";
 import { getAuditLogs } from "../controllers/audit.controller";
 import { authenticateToken } from "../middlewares/authenticateToken";

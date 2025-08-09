@@ -9,10 +9,10 @@ export type AuditAction =
   | "LOGIN"
   | "LOGOUT"
   | "RESET_PASSWORD"
-  | "SEND_EMAIL"; // ✅ Add missing actions from frontend type
+  | "SEND_EMAIL"; 
 
 export interface IAuditLog extends Document {
-  user: mongoose.Types.ObjectId; // will be populated
+  user: mongoose.Types.ObjectId; 
   action: AuditAction;
   entity: string;
   entityId?: mongoose.Types.ObjectId | string;

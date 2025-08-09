@@ -1,4 +1,3 @@
-// src/routes/emailRoutes.ts
 import express from "express"
 import { sendOverdueNotification } from "../controllers/email.controller"
 

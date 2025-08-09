@@ -29,10 +29,6 @@ app.use("/api",rootRouter)
 app.use(errorHandler)
 
 
-// app.get('/',(req,res)=>{
-//     res.send('Hello World kaif!')
-// })
-
 
 connectDB().then(()=>{
 

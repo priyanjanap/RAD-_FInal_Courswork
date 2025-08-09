@@ -3,7 +3,7 @@ import { Request } from "express";
 
 interface AuditParams {
   req: Request;
-  userId?: string; // 👈 Added for cases like login
+  userId?: string; 
   action: "CREATE" | "UPDATE" | "DELETE" | "LEND" | "RETURN" | "LOGIN" | "LOGOUT" | "RESET_PASSWORD" | "SEND_EMAIL";
   entity: string;
   entityId?: string;
